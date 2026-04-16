@@ -71,7 +71,7 @@ export default function Navbar() {
 
 
           {/* Solutions */}
-          <div className="relative group">
+          {/* <div className="relative group">
             <span className="flex items-center gap-1 cursor-pointer text-[18px] font-semibold text-white hover:text-gray-500">
               Solutions
               <svg className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -90,10 +90,10 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-          </div>
+          </div> */}
 
         {/* Technologies */}
-        <div className="relative group">
+        {/* <div className="relative group">
             <span className="flex items-center gap-1 cursor-pointer text-[18px] font-semibold text-white hover:text-gray-500">
               Technologies
               <svg className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -112,7 +112,7 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* Company */}
           <div className="relative group">
