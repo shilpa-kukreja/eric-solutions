@@ -24,7 +24,7 @@ const solutionsLinks = [
 
 ]
 
-const technologyCategories = [
+const technologiesLinks = [
   {
     name: "Clinical Trial Management Software",
     slug: "clinical-trial-management-software",
