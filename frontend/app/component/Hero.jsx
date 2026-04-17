@@ -32,7 +32,7 @@ export default function Hero() {
                   {/* DB Designer */}
 
                   <Link href="/agents/db-designer">
-                  <motion.img
+                    <motion.img
                       src="/herosection/chakara/1.png"
                       className="absolute w-[142px] top-[18.9%] left-[6.5%] cursor-pointer z-20"
                       whileHover={{ x: -3, y: -1 }}
@@ -98,17 +98,21 @@ export default function Hero() {
               {/* TEXT */}
               <div className="order-2 md:order-1 text-white">
                 <h1 className="text-3xl md:text-4xl font-bold leading-tight">
-                Clinical Trial 
+                  Clinical Trial
                 </h1>
                 <h1 className="text-3xl md:text-4xl font-bold leading-tight">
-                Management Solutions
+                  Management Solutions
                 </h1>
 
                 <p className="mt-5 text-sm md:text-[16.5px] text-gray-400">
-                We are
-                  <span className="font-bold text-white"> Eric Solutions</span> , The Clinical trial Expert-
-                  <br/> <br/> helping you optimize operations through digitization.
-                 
+                  We are
+                  <span className="font-bold text-white">
+                    {" "}
+                    Eric Solutions
+                  </span>{" "}
+                  , The Clinical trial Expert-
+                  <br /> <br /> helping you optimize operations through
+                  digitization.
                 </p>
 
                 <div className="mt-7 flex flex-wrap gap-3 mb-6">
@@ -118,7 +122,7 @@ export default function Hero() {
                     </button>
                   </Link> */}
 
-                  <Link href="#ai-agents">
+                  <Link href="contact">
                     <button className="bg-blue-800 px-6 py-3 rounded-sm  hover:bg-[#1D4ED8] transition">
                       Register Now
                     </button>

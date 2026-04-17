@@ -21,29 +21,73 @@ export default function ClinicalOperations() {
       ],
     },
     {
-      title: "Ensuring Participant Safety and Well-Being",
+      title: "Countries Planning and Management",
       points: [
-        "We prioritize the safety and well-being of clinical trial participants by proactively monitoring their health and promptly addressing adverse events and safety concerns. Our vigilant approach ensures a secure and ethical trial environment, fostering trust and compliance.",
+        "Manage key milestones and target site/enrollment metrics for each study country compared with overall study milestones",
+        "Enrollment planning by country for target screening and enrollment as well as counts for actuals compared with subject screening and enrollment data.",
+        "Planning of screening and enrollment targets by month and establish targets for subjects to complete treatment",
+        "Data views allow quick comparison of target versus actuals and visualizations of differences with study planning metrics.",
+        "Insight into country level planning and actuals vs study level expectations",
       ],
     },
     {
-      title: "Ensuring Protocol Adherence and Procedural Compliance",
+      title: "Site and Investigator Management",
       points: [
-        "We guarantee that your clinical trial is conducted in strict alignment with the study protocol and defined procedures. Our meticulous oversight ensures consistency, accuracy, and compliance, safeguarding the integrity and success of your trial.",
+        "Site contact management including primary, alternate and site-specific details.",
+        "Oversight of site selection and participation status across sites.",
+        "Detailed enrollment planning and sub-study participation.",
+        "Tracking of key milestones for study startup from CDA through enrollment.",
+        "Study document tracking and file uploading for site essential documents.",
+        "Detailed startup tracking for EC submissions, communications and site documents.",
+        "Contract and budget management including invoice generation, partial payments and histories.",
       ],
     },
     {
-      title: "Ensuring Regulatory Compliance and GCP Standards",
+      title: "Subject Management",
       points: [
-        "We ensure full compliance with regulatory requirements and guidelines, including Good Clinical Practice (GCP) standards. Our rigorous processes and expert oversight guarantee that your trial meets all regulatory expectations, maintaining integrity and trust throughout the clinical research process.",
-      ],
+        "Manage key milestones and target site/enrollment metrics for each study country compared with overall study milestones.",
+        "Enrollment planning by country for target screening and enrollment as well as counts for actuals compared with subject screening and enrollment data.",
+        "Planning of screening and enrollment targets by month and establish targets for subjects to complete treatment",
+        "Data views allow quick comparison of target versus actuals and visualizations of differences with study planning metrics.",
+        "Insight into country level planning and actuals vs study level expectations"      ],
     },
     {
-      title: "Facilitating Timely and Accurate Reporting",
+      title: "Study Team Management",
       points: [
-        "We enable the timely and precise reporting of trial progress, data, and safety information, ensuring transparency and efficiency. Our streamlined processes and advanced tools keep stakeholders informed, supporting informed decision-making and regulatory compliance.",
-      ],
+        "Team roster with CRA-site assignments, start/stop dates on project, roles and titles.",
+        "Ability for authorized users to trigger team member account invitations.",
+        "Supports global team member collaboration with built in study view settings and country and site assignments appropriate to given person/team.",
+        "Action item tracking by functional area with assignment to team members and ability to export.",
+        "Study document development tracking area for monitoring plans, AE plans, etc.",
+        "Training status by team member for defined study and team procedures."      ],
     },
+    {
+        title: "CRA Workspace",
+        points: [
+            "Fully integrated site visit calendar for CRA visit planning and insight into visit report authoring progress.",
+            "eVisit Report (EVR) authoring and approval features directly in the system.",
+            "Supports site visit report tracking for EVRs and external reports with related visit letter and document upload features.",
+            "Cumulative action item views and tracking supports content from EVRs as well as items directly added via the tab.",
+            "Integrated alerts for action items and electronic visit reports.",
+            "Integrated TMF repository for approved EVRs and attachments.",
+            "Tools for CRA visits including interactive site map and shared repositories."   ],
+      },{
+        title: "Regulatory Affairs and Safety",
+        points: [
+            "Define and plan submission timelines by country for up to 3 regulatory agencies and submission content.",
+            "Track expected regulatory agency approvals by country per defined submission timelines and submission actuals.",
+            "Define essential document package details by document including country-specific items and desired document numbering and folder structures.",
+            "View uploaded site essential document files in organized file folder structures per definitions.",
+            "File upload and tracking support for IND Safety reports, agency submission tracking and repositories for standard forms and progress reports."],
+      },
+      {
+        title: "Additional Details",
+        points: [
+            "Repositories: Limited access repositories throughout functional areas for files uploaded and content created within the application.",
+            "Reports and Dashboards: SimpleCTMS supports a flexible reporting interface and dashboards to provide data summaries, charts and visualizations, and checklists. Ad hoc reports supported.",
+            "Study Document bundle: Download all study level documents as a zip file with established folder structure.",
+            "Data Export: Data exports allow download or email delivery of tracking views in common formats."      ],
+      },
   ];
 
   const toggleFeature = (index) => {
@@ -104,7 +148,7 @@ export default function ClinicalOperations() {
                   Trial Management System (CTMS) without the substantial upfront
                   financial and resource commitments typical of traditional
                   enterprise systems or the inefficiencies inherent in
-                  spreadsheet trackers..
+                  spreadsheet trackers.
                 </p>
               </motion.div>
 
